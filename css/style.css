@@ -34,12 +34,13 @@ header h1 {
 }
 
 .titulo-depoimentos {
-    background-color: #0275D8;
+    background-color: #dbd6d9;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #FFF;
     margin-bottom: 0;
     font-size: 22px;
+    text-align: center;
 }
 
 .contato-select,
@@ -62,4 +63,23 @@ footer {
 
 footer address:last-child {
     margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .topCasaFina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 40%;
+    }
+
+    .topCasaFina-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
 }
